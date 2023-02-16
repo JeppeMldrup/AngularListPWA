@@ -1,0 +1,25 @@
+<!--
+<mat-toolbar class="footer">
+    <button mat-button [routerLink]="['/home']" class="footerButton"><mat-icon fontIcon="home"></mat-icon></button>
+    <button mat-button [routerLink]="['/list']" class="footerButton"><mat-icon fontIcon="menu"></mat-icon></button>
+    <button mat-button [routerLink]="['/user']" class="footerButton"><mat-icon fontIcon="person"></mat-icon></button>
+    <button mat-button [routerLink]="['/options']" class="footerButton"><mat-icon fontIcon="settings"></mat-icon></button>
+</mat-toolbar>
+-->
+
+<mat-toolbar class="footer">
+    <div matRipple [routerLink]="['/home']" class=footerButton>
+        <mat-icon fontIcon="home"></mat-icon>
+    </div>
+    <div matRipple [routerLink]="['/list']" class=footerButton>
+        <mat-icon fontIcon="menu"></mat-icon>
+    </div>
+    <div matRipple [routerLink]="['/user']" class=footerButton>
+        <mat-icon fontIcon="person"></mat-icon>
+    </div>
+    <div matRipple [routerLink]="['/options']" class=footerButton>
+        <mat-icon fontIcon="settings"></mat-icon>
+    </div>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
