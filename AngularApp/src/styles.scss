@@ -27,7 +27,7 @@ $d-theme: mat.define-dark-theme((
     density: 0,
 ));
 
-@include mat.all-component-themes($theme);
+@include mat.all-component-themes($d-theme);
 /*@include mat.button-theme($theme);*/
 
 html,
